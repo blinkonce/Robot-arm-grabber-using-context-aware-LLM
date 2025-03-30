@@ -1,7 +1,7 @@
 from groq import Groq
-#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
+
 client = Groq(
-    api_key="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"
+    api_key="your api key"
 )
 
 def LLM_chatbot(input):#groq api 로 llama llm 실행 input은 질문
